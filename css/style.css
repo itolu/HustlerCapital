@@ -439,14 +439,20 @@ progress {
   font-weight: bold;
 }
 @font-face {
+    font-family: 'Messina Sans';
+    src: url('fonts/MessinaSans-SemiBold.otf') format('opentype');
+    font-weight: 600;
+}
+@font-face {
   font-family: 'Messina Sans';
   src: url('fonts/MessinaSans-Black.otf') format('opentype');
   font-weight: 900;
 }
+
 main{
     position: relative;
-    height: 5006px;
     background: #040D21;
+    padding: 15px;
 }
 header{
     padding: 40px;
@@ -478,7 +484,7 @@ nav a{
     margin: 0 12px;
 }
 .hero{
-    margin: 129px auto;
+    margin: 129px auto 180px;;
     text-align: center;
 }
 .hero-logo{
@@ -513,10 +519,169 @@ nav a{
     color: #8193B2;
 }
 .window{
-    margin: auto;
     position: relative;
-    width: 915px;
+    margin: auto;
+    max-width: 915px;
     height: 406px;
     background: #0C162D;
     border-radius: 20px 20px 0px 0px;
+}
+.window .title-bar-buttons{
+    position: absolute;
+    top: 32px;
+    left: 40px;
+}
+.window .title-bar-buttons .ellipse{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    margin-right: 12px;
+}
+ .title-bar-buttons .ellipse-1{
+     background: #FF5E5D;
+ }
+ .title-bar-buttons .ellipse-2{
+     background: #F8C430;
+ }
+ .title-bar-buttons .ellipse-3{
+     background: #20CC52;
+ }
+.window .window-content{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 835px;
+    height: 318px;
+    background: #19253B;
+    border-radius: 20px 20px 0px 0px;
+}
+.window-content .window-heading{
+    margin: 24px 0 78px 32px;
+    text-align: left;
+}
+.window-content .window-heading img{
+    margin-right: 16px;
+    width: 48px;
+    height: 48px;
+}
+.window-content .window-heading-text{
+    display: inline-block;
+    vertical-align: top;
+}
+.window-content .window-heading h3{
+    margin-bottom: 5px;
+    font-family: 'Messina Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFF;
+}
+.window-content .window-heading p{
+    font-family: 'Messina Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #BDBDC7;
+}
+.window-content .window-section{
+    display: flex;
+    position: absolute;
+    left: 32px;
+    bottom: 0;
+}
+.window-content .window-section .item{
+    background: #0C162D;
+    border-radius: 12px 12px 0px 0px;
+    padding: 24px 24px 0;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: left;
+}
+.window-content .window-section .window-section-about{
+    margin-right: 32px;
+    max-width: 493px;
+    height: 168px;
+}
+.window-content .window-section-about p{
+    margin-bottom: 24px;
+    font-family: 'Messina Sans';
+    font-style: normal;
+    font-weight: normal;
+    color: #8193B2;
+}
+.window-content .window-section .window-section-founders{
+    position: relative;
+    max-width: 246px;
+    height: 168px;
+}
+.window-content .window-section h4{
+    font-family: 'Messina Sans';
+    font-style: normal;
+    font-weight: 600;
+    color: #FFF;
+    font-size: 12px;
+    line-height: 14px;
+}
+.window-section-about .ab-usr-item {
+    display: inline-block;
+}
+.window-section-about .ab-usr h5{
+    font-family: 'Messina Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #8193B2;
+}
+.window-section-about .ab-usr .ab-usr-1{
+    margin-right: 24px;
+}
+.ab-usr .butn{
+    height: 22px;
+    background: rgba(15, 16, 20, 0.24);
+    border-radius: 4px;
+    padding: 5px;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    line-height: 14px;
+    font-family: 'Messina Sans';
+    font-style: normal;
+    font-weight: bold;
+}
+.ab-usr-1 .butn{
+    width: 66px;
+    background: linear-gradient(91.39deg, #7FC6C6 -29.33%, #A399E2 121.56%);
+
+}
+.ab-usr-2 .butn{
+    width: 63px;
+    background: linear-gradient(91.39deg, #7F8EC6 -29.33%, #E299D2 121.56%);
+}
+.window-section-founders .pixs{
+    margin-bottom: 28px;
+    text-align: left;
+}
+.window-section-founders .pixs img{
+    width: 32px;
+    height: 32px;
+    margin-right: 7px;
+}
+.window-section-founders .founders-quote{
+    width: 198px;
+    height: 62px;
+    background: #19253B;
+    border-radius: 8px 8px 0px 0px;
+    padding: 18px;
+    font-family: 'Messina Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #8193B2;
 }
