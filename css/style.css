@@ -685,3 +685,82 @@ nav a{
     line-height: 14px;
     color: #8193B2;
 }
+#what-we-do{
+    margin: auto auto 180px;
+    text-align: center;
+}
+.section-title{
+    margin-bottom: 12px;
+    font-family: 'Messina Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #8193B2;
+}
+#what-we-do p.heading-text{
+    margin-bottom: 80px;
+    font-family: 'Messina Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFF;
+}
+#what-we-do .cards{
+    display: flex;
+    margin: auto;
+    max-width: 1120px;
+    justify-content: space-between;
+    align-items: center;
+}
+#what-we-do .cards .card{
+    margin-bottom: 90px;
+    vertical-align: top;
+    width: 352px;
+    height: 315px;
+    border-radius: 8px;
+    padding: 32px;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(32px);
+    text-align: left;
+}
+#what-we-do .cards .card-icon{
+    margin-bottom: 24px;
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.04);
+}
+#what-we-do .cards h3{
+    display: block;
+    font-family: 'Messina Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFF;
+}
+#what-we-do .cards p{
+    font-family: 'Messina Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #BDBDC7;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 650px) {
+    #what-we-do .cards{
+        flex-direction: column;
+    }
+}
