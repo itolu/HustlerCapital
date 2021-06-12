@@ -689,7 +689,7 @@ nav a{
     margin: auto auto 180px;
     text-align: center;
 }
-.section-title{
+.section-title h3{
     margin-bottom: 12px;
     font-family: 'Messina Sans';
     font-style: normal;
@@ -698,7 +698,7 @@ nav a{
     line-height: 24px;
     color: #8193B2;
 }
-#what-we-do p.heading-text{
+.section-title p{
     margin-bottom: 80px;
     font-family: 'Messina Sans';
     font-style: normal;
@@ -710,7 +710,7 @@ nav a{
 #what-we-do .cards{
     display: flex;
     margin: auto;
-    max-width: 1120px;
+    max-width: 1121px;
     justify-content: space-between;
     align-items: center;
 }
@@ -750,8 +750,72 @@ nav a{
     line-height: 22px;
     color: #BDBDC7;
 }
-
-
+#our-mission{
+    margin: auto auto 243px;
+    text-align: center;
+}
+#our-mission .mission-row{
+    position: relative;
+    margin: auto auto 189px;;
+    max-width: 1121px;
+}
+#our-mission .mission-row .mission-col{
+    width: 915px;
+    background: #14141C;
+    padding: 40px;
+    opacity: 0.99;
+    border-radius: 20px;
+}
+.mission-col.col-r, .mission-col.col-r h2, .mission-col.col-r p{
+    margin-left: auto;
+    margin-right: 0;
+}
+.mission-row .mission-col .mission-col-text{
+    width: 835px;
+    background: #111217;
+    padding: 48px;
+    border-radius: 20px 20px 0px 20px;
+    text-align: left;
+}
+.mission-col-text h2{
+    margin-bottom: 18px;
+    max-width: 479px;
+    font-family: 'Messina Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFF;
+}
+.mission-col-text p{
+    max-width: 479px;
+    font-family: 'Messina Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #BDBDC7;
+}
+.mission-row  .mission-img{
+    position: absolute;
+    right: 0;
+    top: -31px;
+    width: 491px;
+    height: 508px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(32px);
+    background: url('../img/pexels-cottonbro-5076531.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.mission-row  .mission-img.img-l{
+    left: 0;
+    right: auto;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(32px);
+    transform: rotate(90deg);
+}
 
 
 
