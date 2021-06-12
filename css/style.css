@@ -846,7 +846,7 @@ nav a{
     border-radius: 12px;
     background: rgba(255, 255, 255, 0.04);
     backdrop-filter: blur(32px);
-    padding: 24px;
+    padding: 24px 0 24px 24px;
     text-align: left;
 }
 .companies-stack .company-1{
@@ -880,12 +880,37 @@ nav a{
     color: #FFF;
 }
 .company .comp-text p{
+    margin-bottom: 0;
     font-family: 'Messina Sans';
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
     color: #BDBDC7;
+}
+.hustlers-quote{
+    margin: auto auto 161px;
+    max-width: 972px;
+    height: 296px;
+    background: #121722;
+    backdrop-filter: blur(32px);
+    border-radius: 8px;
+    padding: 48px;
+    text-align: center;
+
+    background-image: url('../img/left-quote.svg'), url('../img/right-quote.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: 66.33px 33.18px, 804.33px 169.23px;
+}
+.hustlers-quote p.quote{
+    margin: 26px auto auto;
+    width: 585px;
+    font-family: 'Messina Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFF;
 }
 
 
