@@ -114,7 +114,8 @@ address {
 
 ol,
 ul {
-  padding-left: 2rem;
+  padding-left: 0;
+  list-style: none;
 }
 
 ol,
@@ -689,7 +690,7 @@ nav a{
     margin: auto auto 180px;
     text-align: center;
 }
-.section-title h3{
+.section-title h3, .footer-address .footer-menu li, .footer-address p.address{
     margin-bottom: 12px;
     font-family: 'Messina Sans';
     font-style: normal;
@@ -904,7 +905,7 @@ nav a{
 }
 .hustlers-quote p.quote{
     margin: 26px auto auto;
-    width: 585px;
+    max-width: 585px;
     font-family: 'Messina Sans';
     font-style: normal;
     font-weight: normal;
@@ -912,13 +913,110 @@ nav a{
     line-height: 24px;
     color: #FFF;
 }
+footer{
+    margin: auto auto 26px;
+}
+.footer-row{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    max-width: 1120px;
+    border-bottom: 2px solid #2D3545;
+    padding-bottom: 32px;
+}
+footer .section-title p{
+    margin-bottom: 24px;
+}
+.footer-contact p.contact{
+    margin-bottom: 8px;
+    font-family: 'Messina Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFF;
+}
+.footer-contact p.contact.mail{
+    text-decoration-line: underline;
+}
+.footer-address{
+    display: flex;
+    align-items: center;
+}
+.footer-address .divider{
+    height: 225px;
+    border-left: 2px solid #2D3545;
+    margin-right: 38px;
+}
+.footer-address .footer-menu{
+    display: inline-block;
+}
+.footer-address .footer-menu.i-1{
+    margin-right: 55px;
+    vertical-align: top;
+}
+.footer-address .footer-menu h4{
+    margin-bottom: 20px;
+    font-family: 'Messina Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFF;
+}
+.footer-address .footer-menu li{
+    margin-bottom: 16px;
+}
+.footer-address .footer-menu li a{
+    color: #8193B2;
+    text-decoration: none;
+}
+.copy{
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    /* 26px */
+
+    font-family: 'Messina Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #8193B2;
+}
+.copy p{
+    margin-bottom: 0;
+}
+.copy .i, .footer-col{
+    width: 50%;
+}
+.copy p.c{
+    padding-right: 16px;
+    text-align: right;
+}
+.copy div.r{
+    display: flex;
+    align-items: center;
+}
+.copy .divider{
+    height: 28px;
+    border-left: 2px solid #2D3545;
+    margin-right: 16px;
+}
 
 
-
-
+/* section{
+    display: none;
+} */
 
 @media (max-width: 650px) {
-    #what-we-do .cards{
+    #what-we-do .cards, .footer-row{
         flex-direction: column;
+    }
+    .footer-address .divider{
+        display: none;
+    }
+    .hustlers-quote{
+        background-position: 15px 15px, calc(100% - 15px) calc(100% - 15px);
     }
 }
