@@ -532,6 +532,18 @@ main{
     background-repeat: no-repeat;
     background-size: 100%;
 }
+.bg-light-3-cover{
+    left: 0;
+    right: 0;
+}
+.bg-light-3{
+    top: 487px;
+    width: 438px;
+    height: 251px;
+    background-image: url('../img/light-3.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 
 
 
