@@ -486,10 +486,36 @@ progress {
 
 
 main{
-    background: #040D21;
-    padding: 15px;
     font-family: 'Messina Sans';
 }
+.bg-u{
+    z-index: -5;
+}
+.bg-noise, .bg-color, .bg-blur{
+    width: 100%;
+    height: 100%;
+}
+.bg-noise{
+    z-index: -3;
+    background-image: url('../img/noise.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.bg-color{
+    background-color: #040D21;
+    z-index: -7;
+}
+.bg-starlight{
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+.bg-blur{
+    z-index: -1;
+    background: rgba(15, 16, 20, 0.49);
+    backdrop-filter: blur(256px);
+}
+
 header{
     padding: 40px;
 }
@@ -792,8 +818,10 @@ nav a{
 #our-companies{
     margin: auto auto 208px;
 }
+#our-companies .section-title{
+    margin-bottom: 167px;
+}
 .companies-stack{
-    margin: 167px auto auto;
     width: 622px;
     height: 425px;
     background: #121722;
@@ -875,9 +903,6 @@ nav a{
     font-size: 20px;
     line-height: 24px;
 }
-footer{
-    margin: auto auto 26px;
-}
 .footer-row{
     max-width: 1120px;
     border-bottom: 2px solid #2D3545;
@@ -920,6 +945,7 @@ footer .section-title p{
 }
 .copy{
     margin-top: 24px;
+    padding-bottom:  26px;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
