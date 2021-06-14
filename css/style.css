@@ -496,9 +496,6 @@ main{
     height: 100%;
 }
 .bg-noise{
-    /* display: none; */
-
-
     z-index: -2;
     background-image: url('../img/noise.png');
     background-repeat: no-repeat;
@@ -532,6 +529,23 @@ main{
     width: 100%;
     height: 354px;
     background: linear-gradient(13.67deg, #040D21 -3.13%, rgba(15, 16, 20, 0) 109.41%);
+}
+.bg-linesss-cover{
+    right: 0;
+    overflow: hidden;
+}
+.bg-linesss{
+    top: -405px;
+    right: -827.86px;
+    width: 1434px;
+    height: 3042px;
+    background-image: url('../img/linesss.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    mix-blend-mode: overlay;
+    opacity: 0.24;
+    backdrop-filter: blur(256px);
+    transform: rotate(24.57deg);
 }
 .bg-starlight{
     left: 0px;
@@ -569,13 +583,7 @@ main{
     background-repeat: no-repeat;
     background-size: 100%;
 }
-
-
-
 .bg-blur{
-    /* display: none; */
-
-
     z-index: -1;
     background: rgba(15, 16, 20, 0.49);
     backdrop-filter: blur(256px);
