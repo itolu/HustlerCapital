@@ -896,11 +896,6 @@ nav a:hover{
     backdrop-filter: blur(32px);
     transform: rotate(90deg);
 }
-
-
-/* =========================== */
-
-
 #our-companies{
     margin: auto auto 208px;
 }
@@ -932,6 +927,10 @@ nav a:hover{
     background: rgba(255, 255, 255, 0.04);
     backdrop-filter: blur(32px);
     padding: 24px 0 24px 24px;
+}
+.company .comp-logo{
+    width: 80px;
+    height: 80px;
 }
 .companies-stack .company-1{
     top: -48px;
@@ -979,6 +978,7 @@ nav a:hover{
 
     background-image: url('../img/left-quote.svg'), url('../img/right-quote.svg');
     background-repeat: no-repeat, no-repeat;
+    background-size: 101.38px 76.61px;
     background-position: 66.33px 33.18px, 804.33px 169.23px;
 }
 .hustlers-quote p.quote{
@@ -1037,6 +1037,7 @@ footer .section-title p{
     font-size: 14px;
     line-height: 17px;
     color: #8193B2;
+    justify-content: center;
 }
 .copy p{
     margin-bottom: 0;
@@ -1245,7 +1246,7 @@ footer .section-title p{
         font-size: 10px;
         line-height: 12px;
     }
-    #what-we-do{
+    #what-we-do, #our-mission{
         margin: auto auto 112px;
         padding: 0 32px;
     }
@@ -1286,11 +1287,9 @@ footer .section-title p{
 
 
 
-    #our-mission{
-        margin: auto auto 243px;
-        padding: 0 32px;
-    }
-    #our-mission .mission-row{
+
+
+    /* #our-mission .mission-row{
         margin: auto auto 189px;;
         max-width: 1121px;
     }
@@ -1345,18 +1344,122 @@ footer .section-title p{
         background: rgba(255, 255, 255, 0.04);
         backdrop-filter: blur(32px);
         transform: rotate(90deg);
+    } */
+
+
+
+
+
+
+    #our-companies{
+        margin: auto auto 159px;
     }
-
-
-
-
-
-
-
-  .footer-address .divider{
-      display: none;
-  }
-  .hustlers-quote{
-      background-position: 15px 15px, calc(100% - 15px) calc(100% - 15px);
-  }
+    #our-companies .section-title{
+        margin-bottom: 81px;
+    }
+    .companies-stack{
+        width: 279px;
+        height: 400px;
+    }
+    .companies-stack .companies-stack-underlay{
+        background-image: url('../img/vector-m.svg');
+    }
+    .companies-stack .company{
+        width: 311px;
+        height: 104px;
+        padding: 20px 10.5px;
+        left: -30px;
+        right: -30px;
+        margin: auto;
+    }
+    .company .comp-logo{
+        width: 64px;
+        height: 64px;
+    }
+    .companies-stack .company-1{
+        top: -41px;
+    }
+    .companies-stack .company-2{
+        top: 87px;
+    }
+    .companies-stack .company-3{
+        top: 215px;
+    }
+    .companies-stack .company-4{
+        top: 343px;
+    }
+    .company .comp-text{
+        margin-left: 16px;
+        max-width: 69%;
+    }
+    .company .comp-text h4{
+        margin-bottom: 2px;
+    }
+    .company .comp-text p{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .hustlers-quote{
+        margin: auto 24px 112px 24px;
+        height: auto;
+        /* padding: 65.5px 32px; */
+        padding: 48px 36px;
+        background-size: 53px 40px;
+        background-position: 20px 20px, calc(100% - 20px) calc(100% - 20px);
+    }
+    .hustlers-quote p.quote{
+        margin: auto;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    footer{
+        padding: 0 24px;
+    }
+    .footer-row{
+        border: none;
+        padding-bottom: 6px;
+        align-items: unset;
+    }
+    footer .section-title p{
+        margin-bottom: 20px;
+    }
+    .footer-contact{
+        margin-bottom: 40px;
+        padding-bottom: 24px;
+        border-bottom: 2px solid #2D3545;
+    }
+    .footer-contact p.contact, .footer-contact p.contact.mail{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .footer-address{
+        padding-bottom: 56px;
+        border-bottom: 2px solid #2D3545;
+    }
+    .footer-address .footer-menu.i-1{
+        margin-right: 32px;
+    }
+    .footer-address .footer-menu h4{
+        margin-bottom: 16px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .footer-address .footer-menu li{
+        margin-bottom: 12px;
+    }
+    .copy{
+        margin-top: 6px;
+        padding-bottom:  18px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .copy .i, .footer-col{
+        width: auto;
+    }
+    .copy p.c{
+        padding-right: 12px;
+    }
+    .copy .divider{
+        margin-right: 12px;
+    }
 }
