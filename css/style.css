@@ -240,6 +240,7 @@ figure {
 img,
 svg {
   vertical-align: middle;
+  max-width: 100%;
 }
 
 table {
@@ -458,6 +459,9 @@ progress {
 .p-relative{
     position: relative;
 }
+.d-none{
+    display: none;
+}
 .d-inline-block{
     display: inline-block;
 }
@@ -595,11 +599,12 @@ header{
 }
 .logo{
     left: 160px;
-    top: 27px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 36px;
+    top: 38.67px;
+}
+.logo img{
+    width: 97.97px;
+    height: 21.66px;
+    vertical-align: top;
 }
 nav{
     font-style: normal;
@@ -610,16 +615,17 @@ nav{
 nav a{
     text-decoration: none;
     margin: 0 12px;
+    color: #FFF;
+}
+nav a:hover{
+    color: #8193B2;
 }
 .hero{
     margin: auto auto 180px;
 }
-.hero-logo{
-    margin-bottom: 16px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 24px;
+.hero-logo img{
+    width: 73px;
+    height: 24px;
 }
 .hero-heading{
     margin-bottom: 30px;
@@ -890,6 +896,11 @@ nav a{
     backdrop-filter: blur(32px);
     transform: rotate(90deg);
 }
+
+
+/* =========================== */
+
+
 #our-companies{
     margin: auto auto 208px;
 }
@@ -1054,14 +1065,298 @@ footer .section-title p{
 
 
 
-@media (max-width: 650px) {
+@media only screen and (max-width: 375px) {
+    .p-sm-relative{
+        position: relative;
+    }
+    .p-sm-absolute{
+        position: absolute;
+    }
+    .d-sm-none{
+        display: none;
+    }
+    .d-sm-block{
+        display: block;
+    }
+    .d-sm-inline-block{
+        display: inline-block;
+    }
+    .d-sm-flex{
+        display: flex;
+    }
+    .m-sm-auto{
+        margin: auto;
+    }
+    .t-sm-left{
+        text-align: left;
+    }
+    .t-sm-center{
+        text-align: center;
+    }
+
+    header{
+        padding: 24px;
+        margin-bottom: 80px;
+    }
+    .logo{
+        left: 0;
+        top: 0;
+    }
+    .logo img{
+        width: 72.37px;
+        height: 16px;
+    }
+    nav{
+        top: 50px;
+
+        width: calc(100% - 48px);
+        padding: 32px 24px;
+        background: #19253B;
+        backdrop-filter: blur(32px);
+        border-radius: 8px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    nav a{
+        margin-bottom: 24px;
+        color: #8193B2;
+    }
+    .ham-menu{
+        margin-left: auto;
+        width: 24px;
+        height: 14px;
+    }
+    .ham-menu .ham-bar{
+        margin-bottom: 4px;
+        width: 24px;
+        height: 2px;
+        background: #FFF;
+    }
+    .hero{
+        padding: 0 24px;
+        margin: auto auto 112px;
+    }
+    .hero-logo img{
+        width: 60.83px;
+        height: 20px;
+    }
+    .hero-heading{
+        margin-bottom: 32px;
+        /* font-style: normal;
+        font-weight: 900;
+        font-size: 56px;
+        line-height: 67px;
+        color: #BDBDC7;
+
+        background: linear-gradient(266.77deg, #A36ACD -4.44%, #CFAEDD 70.67%, #F4D9ED 98.81%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; */
+    }
+    .hero-text{
+        margin-bottom: 71.65px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .window{
+        max-width: 327px;
+        height: 449px;
+    }
+    .window .window-content{
+        max-width: 287px;
+        height: 424px;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .window-content .window-heading{
+        margin: 20px 16px;
+    }
+    .window-content .window-heading img{
+        margin-right: 8px;
+        width: 32px;
+        height: 32px;
+    }
+    .window-content .window-heading h3{
+        margin-bottom: 3px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .window-content .window-heading p{
+        margin-bottom: 0;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .window-content .window-section{
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .window-content .window-section .item{
+        width: 255px;
+        border-radius: 10px;
+        padding: 16px 12px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .window-content .window-section .window-section-about{
+        margin-right: 0;
+        margin-bottom: 20px;
+        height: 156px;
+    }
+    .window-content .window-section-about p{
+        margin-bottom: 16px;
+    }
+    .window-content .window-section .window-section-founders{
+        max-width: 255px;
+        height: 160px;
+    }
+    .window-content .window-section h4{
+        margin-bottom: 8px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .window-section-about .ab-usr h5{
+        margin-bottom: 4px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .window-section-about .ab-usr .ab-usr-1{
+        margin-right: 16px;
+    }
+    .ab-usr .butn{
+        height: 20px;
+        border-radius: 4px;
+        padding: 4px 8px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .ab-usr-1 .butn{
+        width: 51px;
+    }
+    .ab-usr-2 .butn{
+        width: 48px;
+    }
+    .window-section-founders .pixs{
+        margin-bottom: 20px;
+    }
+    .window-section-founders .founders-quote{
+        width: 231px;
+        height: 56px;
+        border-radius: 10px;
+        padding: 16px 48.5px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    #what-we-do{
+        margin: auto auto 112px;
+        padding: 0 32px;
+    }
+    .section-title h3, .footer-address .footer-menu li, .footer-address p.address{
+        margin-bottom: 16px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .section-title p{
+        margin-bottom: 40px;
+        font-size: 24px;
+        line-height: 29px;
+    }
     #what-we-do .cards, .footer-row{
         flex-direction: column;
     }
-    .footer-address .divider{
-        display: none;
+    #what-we-do .cards .card{
+        width: 311px;
+        height: 260px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        padding: 24px 23.5px;
     }
-    .hustlers-quote{
-        background-position: 15px 15px, calc(100% - 15px) calc(100% - 15px);
+    #what-we-do .cards .card-icon{
+        margin-bottom: 20px;
+        padding: 15px;
     }
+    #what-we-do .cards h3{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    #what-we-do .cards p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+
+
+
+    #our-mission{
+        margin: auto auto 243px;
+        padding: 0 32px;
+    }
+    #our-mission .mission-row{
+        margin: auto auto 189px;;
+        max-width: 1121px;
+    }
+    #our-mission .mission-row .mission-col{
+        width: 915px;
+        background: #14141C;
+        padding: 40px;
+        opacity: 0.99;
+        border-radius: 20px;
+    }
+    .mission-col.col-r, .mission-col.col-r h2, .mission-col.col-r p{
+        margin-left: auto;
+        margin-right: 0;
+    }
+    .mission-row .mission-col .mission-col-text{
+        width: 835px;
+        background: #111217;
+        padding: 48px;
+        border-radius: 20px 20px 0px 20px;
+    }
+    .mission-col-text h2{
+        margin-bottom: 18px;
+        max-width: 479px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .mission-col-text p{
+        max-width: 479px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+        color: #BDBDC7;
+    }
+    .mission-row  .mission-img{
+        right: 0;
+        top: -31px;
+        width: 491px;
+        height: 508px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.04);
+        backdrop-filter: blur(32px);
+        background: url('../img/pexels-cottonbro-5076531.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .mission-row  .mission-img.img-l{
+        left: 0;
+        right: auto;
+        background: rgba(255, 255, 255, 0.04);
+        backdrop-filter: blur(32px);
+        transform: rotate(90deg);
+    }
+
+
+
+
+
+
+
+  .footer-address .divider{
+      display: none;
+  }
+  .hustlers-quote{
+      background-position: 15px 15px, calc(100% - 15px) calc(100% - 15px);
+  }
 }

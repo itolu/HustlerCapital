@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Hustler Capital</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
@@ -14,16 +15,22 @@
                 <div class="bg-light-2"></div>
                 <div class="bg-light-1"></div>
             </div>
-            <header>
-                <div class="logo p-absolute t-white">
+            <header class="d-sm-flex">
+                <div class="logo p-absolute p-sm-relative d-sm-inline-block t-white">
                      <!-- hə-slər -->
                      <img src="img/logo.png" alt="">
                 </div>
-                <nav class="t-center m-auto">
-                    <a href="#what-we-do" class="nav-iem nav-link t-white">What we do</a>
-                    <a href="#our-mission" class="nav-iem nav-link t-white">Mission</a>
-                    <a href="#our-companies" class="nav-iem nav-link t-white">Companies</a>
-                </nav>
+                <!-- <nav class="t-center m-auto p-sm-absolute">
+                    <a href="#" class="nav-iem nav-link d-sm-block t-sm-left">Home</a>
+                    <a href="#what-we-do" class="nav-iem nav-link d-sm-block t-sm-left">What we do</a>
+                    <a href="#our-mission" class="nav-iem nav-link d-sm-block t-sm-left">Mission</a>
+                    <a href="#our-companies" class="nav-iem nav-link d-sm-block t-sm-left">Companies</a>
+                </nav> -->
+                <div class="ham-menu d-none d-sm-block d-sm-inline-block">
+                    <div class="ham-bar"></div>
+                    <div class="ham-bar"></div>
+                    <div class="ham-bar"></div>
+                </div>
             </header>
             <div class="bg-u bg-big-light-1-cover p-absolute">
                 <div class="bg-big-light-1 p-relative"></div>
@@ -43,7 +50,7 @@
                     help them build market-leading companies.
                 </p>
                 <div class="window m-auto p-relative">
-                    <div class="title-bar-buttons p-absolute">
+                    <div class="title-bar-buttons p-absolute d-sm-none">
                         <div class="ellipse ellipse-1 d-inline-block"></div>
                         <div class="ellipse ellipse-2 d-inline-block"></div>
                         <div class="ellipse ellipse-3 d-inline-block"></div>
@@ -56,7 +63,7 @@
                                 <p>Lagos, Nigeria.</p>
                             </div>
                         </div>
-                        <div class="window-section p-absolute d-flex">
+                        <div class="window-section p-absolute p-sm-relative d-flex">
                             <div class="item window-section-about t-left">
                                 <h4 class="t-white">About</h4>
                                 <p>
@@ -88,7 +95,7 @@
                                     <img src="img/pix2.png" alt="">
                                     <img src="img/pix3.png" alt="">
                                 </div>
-                                <p class="founders-quote">
+                                <p class="founders-quote t-sm-center">
                                     “Live in the future, then build
                                     what’s missing”
                                 </p>
