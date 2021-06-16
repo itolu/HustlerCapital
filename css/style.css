@@ -841,7 +841,7 @@ nav a:hover{
     margin: auto auto 243px;
 }
 #our-mission .mission-row{
-    margin: auto auto 189px;;
+    margin: auto auto 189px;
     max-width: 1121px;
 }
 #our-mission .mission-row .mission-col{
@@ -892,8 +892,8 @@ nav a:hover{
 .mission-row  .mission-img.img-l{
     left: 0;
     right: auto;
-    background: rgba(255, 255, 255, 0.04);
-    backdrop-filter: blur(32px);
+    /* background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(32px); */
     transform: rotate(90deg);
 }
 #our-companies{
@@ -1282,75 +1282,47 @@ footer .section-title p{
         font-size: 14px;
         line-height: 20px;
     }
-
-
-
-
-
-
-
-    /* #our-mission .mission-row{
-        margin: auto auto 189px;;
-        max-width: 1121px;
+    #our-mission .mission-row{
+        margin: auto auto 20px;
     }
     #our-mission .mission-row .mission-col{
-        width: 915px;
-        background: #14141C;
-        padding: 40px;
-        opacity: 0.99;
-        border-radius: 20px;
+        width: auto;
+        background: #111217;
+        padding: 24px 24px 32px;
+        opacity: 1;
+        border-radius: 8px 8px 0 0;
     }
     .mission-col.col-r, .mission-col.col-r h2, .mission-col.col-r p{
         margin-left: auto;
         margin-right: 0;
     }
     .mission-row .mission-col .mission-col-text{
-        width: 835px;
-        background: #111217;
-        padding: 48px;
-        border-radius: 20px 20px 0px 20px;
+        width: auto;
+        background: none;
+        padding: 0;
+        border-radius: 0;
     }
     .mission-col-text h2{
-        margin-bottom: 18px;
-        max-width: 479px;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 29px;
-    }
-    .mission-col-text p{
-        max-width: 479px;
-        font-style: normal;
-        font-weight: normal;
+        margin-bottom: 8px;
+        max-width: unset;
         font-size: 20px;
         line-height: 24px;
-        color: #BDBDC7;
+    }
+    .mission-col-text p{
+        max-width: unset;
+        font-size: 14px;
+        line-height: 20px;
     }
     .mission-row  .mission-img{
-        right: 0;
-        top: -31px;
-        width: 491px;
-        height: 508px;
-        border-radius: 8px;
-        background: rgba(255, 255, 255, 0.04);
-        backdrop-filter: blur(32px);
-        background: url('../img/pexels-cottonbro-5076531.png');
-        background-repeat: no-repeat;
-        background-size: 100%;
+        top: unset;
+        width: 100%;
+        min-height: 193px;
+        height: unset;
     }
     .mission-row  .mission-img.img-l{
-        left: 0;
         right: auto;
-        background: rgba(255, 255, 255, 0.04);
-        backdrop-filter: blur(32px);
-        transform: rotate(90deg);
-    } */
-
-
-
-
-
-
+        transform: none;
+    }
     #our-companies{
         margin: auto auto 159px;
     }
