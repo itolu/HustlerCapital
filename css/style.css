@@ -555,6 +555,8 @@ main{
     left: 0px;
     right: 0px;
     margin: auto;
+    max-width: 1209px;
+    max-height: 1209px;
 }
 .bg-big-light-2{
     bottom: 0;
@@ -1113,6 +1115,18 @@ footer .section-title p{
         height: 497px;
         background-image: url('../img/light-1-m.svg');
     }
+    .bg-gr-overlay{
+        top: -412px;
+    }
+    .bg-light-3{
+        top: 10px;
+        width: 100%;
+        height: 251px;
+        background-image: url('../img/light-3-m.svg');
+    }
+    .bg-starlight{
+        width: 100%;
+    }
     header{
         padding: 24px;
         margin-bottom: 80px;
@@ -1126,6 +1140,7 @@ footer .section-title p{
         height: 16px;
     }
     nav{
+        display: none;
         top: 50px;
 
         width: calc(100% - 48px);
@@ -1276,7 +1291,8 @@ footer .section-title p{
     }
     #what-we-do .cards .card{
         width: 311px;
-        height: 260px;
+        height: 320px;
+        max-height: 390px;
         margin-bottom: 20px;
         border-radius: 8px;
         padding: 24px 23.5px;
