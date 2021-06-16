@@ -810,9 +810,9 @@ nav a:hover{
 #what-we-do .cards .card{
     margin-bottom: 90px;
     width: 352px;
-    height: 315px;
+    height: 390px;
     border-radius: 8px;
-    padding: 32px;
+    padding: 32px 31.5px;
     background: rgba(255, 255, 255, 0.04);
     backdrop-filter: blur(32px);
 }
