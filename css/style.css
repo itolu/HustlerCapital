@@ -1147,6 +1147,7 @@ footer .section-title p{
         border-radius: 8px;
         font-size: 20px;
         line-height: 24px;
+        visibility: hidden;
         opacity: 0;
 
         -webkit-transition: opacity .5s ease-in-out;
@@ -1155,6 +1156,7 @@ footer .section-title p{
         transition: opacity .5s ease-in-out;
     }
     nav.open{
+        visibility: visible;
         opacity: 1;
     }
     nav:hover{
