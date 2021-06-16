@@ -767,10 +767,19 @@ nav a:hover{
 .window-section-founders .pixs{
     margin-bottom: 28px;
 }
-.window-section-founders .pixs img{
+.window-section-founders .pixs-div{
+    margin-right: 7px;
     width: 32px;
     height: 32px;
-    margin-right: 7px;
+    background: #19253B;
+    border-radius: 100%;
+}
+.window-section-founders .pixs img{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 24px;
+    border-radius: 100%;
 }
 .window-section-founders .founders-quote{
     width: 198px;
