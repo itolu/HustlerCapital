@@ -1066,8 +1066,8 @@ footer .section-title p{
 
 
 /* light-1-m.svg */
-/* @media only screen and (max-width: 375px) { */
-@media only screen and (max-width: 7685px) {
+@media only screen and (max-width: 375px) {
+/* @media only screen and (max-width: 7685px) { */
     .p-sm-relative{
         position: relative;
     }
