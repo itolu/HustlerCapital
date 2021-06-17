@@ -844,6 +844,10 @@ nav a:hover{
     padding: 15px;
     background: rgba(255, 255, 255, 0.04);
 }
+#what-we-do .cards .card-icon img{
+    width: 34px;
+    height: 34px;
+}
 #what-we-do .cards h3{
     font-style: normal;
     font-weight: 600;
@@ -1418,7 +1422,6 @@ footer .section-title p{
     }
     #what-we-do .cards .card-icon{
         margin-bottom: 20px;
-        padding: 15px;
     }
     #what-we-do .cards h3{
         font-size: 20px;
