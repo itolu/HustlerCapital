@@ -539,6 +539,7 @@ main{
     background: linear-gradient(13.67deg, #040D21 -3.13%, rgba(15, 16, 20, 0) 109.41%);
 }
 .bg-linesss-cover{
+    z-index: -1;
     right: 0;
     overflow: hidden;
 }
