@@ -489,6 +489,9 @@ progress {
 
 
 
+html{
+    scroll-behavior: unset !important;
+}
 main{
     font-family: 'Messina Sans';
 }
