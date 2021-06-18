@@ -546,9 +546,10 @@ main{
     max-height: 1209px;
 }
 .bg-big-light-2{
+    z-index: -6;
     bottom: 0;
     width: 100%;
-    height: 763px;
+    height: 964px;
     background-image: url('../img/big-light-2.svg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -570,7 +571,8 @@ main{
     right: 0;
 }
 .bg-light-3{
-    top: 487px;
+    top: 38px;
+    left: -68px;
     width: 438px;
     height: 251px;
     background-image: url('../img/light-3.svg');
@@ -1139,10 +1141,11 @@ footer .section-title p{
     }
 
     .bg-light-2, .bg-light-1{
-        height: 510px;
+        height: 416px;
         background-image: url('../img/light-2-m.svg');
     }
     .bg-light-1{
+        top: 0;
         height: 497px;
         background-image: url('../img/light-1-m.svg');
     }
@@ -1151,16 +1154,24 @@ footer .section-title p{
     }
     .bg-light-3{
         top: 10px;
+        left: 0;
         width: 100%;
         height: 251px;
         background-image: url('../img/light-3-m.svg');
     }
+    .bg-light-4{
+        top: 258px;
+    }
     .bg-starlight{
         width: 100%;
     }
+    .starlight-h img{
+        position: relative;
+        top: -123px;
+    }
     header{
         padding: 24px;
-        margin-bottom: 80px;
+        margin-bottom: 56px;
     }
     .logo{
         left: 0;
@@ -1292,6 +1303,9 @@ footer .section-title p{
     .hero{
         padding: 0 24px;
         margin: auto auto 112px;
+    }
+    .hero-logo{
+        margin-bottom: 19.83px;
     }
     .hero-logo img{
         width: 60.83px;
